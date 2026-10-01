@@ -1,0 +1,5 @@
+PROMPT: Mejoras con la IA 
+Mejorar el diseño CSS de un simulador de crédito.
+Usar una identidad visual empresarial para una entidad financiera
+ficticia llamada Andes Finanzas, con colores azul oscuro,
+celeste y blanco. El diseño debe ser responsive.
