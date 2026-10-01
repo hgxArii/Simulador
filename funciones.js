@@ -19,3 +19,7 @@ function calcularCapacidadPago(montoDisponible) {
 function calcularTotalPagar(monto, interes) {
     return monto + interes + 100;
 }
+
+function calcularCuotaMensual(total, plazoAnios) {
+    return total / (plazoAnios * 12);
+}
