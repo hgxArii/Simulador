@@ -1,70 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background: #f1f5f9;
     margin: 0;
-    padding: 0;
-} 
+    padding: 30px 16px;
+    color: #1e293b;
+}
 
 .container {
-    width: 400px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    color: #12305a;
+    margin-bottom: 10px;
 }
 
 h2 {
-    margin-top: 20px;
+    color: #1769aa;
     font-size: 18px;
+    margin-top: 30px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 10px;
 }
 
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 16px;
     font-weight: bold;
+    font-size: 14px;
 }
 
 input {
+    display: block;
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: 2px solid #60a5fa;
+    border-color: #2563eb;
 }
 
 p {
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 8px;
 }
 
 span {
     font-weight: bold;
-    color: #2c3e50;
+    color: #12305a;
+    text-align: right;
 }
 
 .buttons {
-    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    gap: 12px;
+    margin-top: 25px;
 }
 
 button {
-    width: 48%;
-    padding: 10px;
+    flex: 1;
+    padding: 13px;
     border: none;
-    border-radius: 5px;
-    background-color: #3498db;
+    border-radius: 8px;
+    background: #1769aa;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background: #12305a;
+}
+
+#btnReiniciar {
+    background: #64748b;
+}
+
+#btnReiniciar:hover {
+    background: #475569;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 16px 10px;
+    }
+
+    .container {
+        padding: 20px 16px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
