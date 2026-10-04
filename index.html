@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -12,30 +12,36 @@
     <script src="simulador.js" defer></script>
 </head>
 <body>
-     
 
     <div class="container">
         <h1>Simulador de Crédito</h1>
 
         <h2>Datos financieros</h2>
+
         <label for="txtIngresos">Ingresos:</label>
         <input type="text" id="txtIngresos">
+        <span id="errorIngresos" class="error"></span>
 
         <label for="txtEgresos">Egresos:</label>
         <input type="text" id="txtEgresos">
+        <span id="errorEgresos" class="error"></span>
 
         <p>Disponible: <span id="spnDisponible"></span></p>
         <p>Capacidad de pago mensual: <span id="spnCapacidadPago"></span></p>
 
         <h2>Solicitud de crédito</h2>
+
         <label for="txtMonto">Monto:</label>
         <input type="text" id="txtMonto">
+        <span id="errorMonto" class="error"></span>
 
         <label for="txtPlazo">Plazo en años:</label>
         <input type="text" id="txtPlazo">
+        <span id="errorPlazo" class="error"></span>
 
         <label for="txtTasaInteres">Tasa de interés:</label>
         <input type="text" id="txtTasaInteres">
+        <span id="errorTasaInteres" class="error"></span>
 
         <p>Interés a pagar: <span id="spnInteresPagar"></span></p>
         <p>Total préstamo: <span id="spnTotalPrestamo"></span></p>

@@ -3,3 +3,24 @@ Mejorar el diseño CSS de un simulador de crédito.
 Usar una identidad visual empresarial para una entidad financiera
 ficticia llamada Andes Finanzas, con colores azul oscuro,
 celeste y blanco. El diseño debe ser responsive.
+
+PROMPT 1
+Establecer validaciones en tiempo real para los campos de un formulario financiero. Los campos deben mostrar el mensaje de error inmediatamente mientras el usuario escribe y no después de enviar o calcular el formulario.
+
+PROMPT 2
+Los campos de ingresos, egresos, monto y tasa de interés deben aceptar únicamente números y puntos. Si el usuario escribe una letra, espacio o cualquier carácter diferente de un número o punto, debe aparecer inmediatamente un mensaje de error debajo del campo.
+
+PROMPT 3
+En los campos que permiten números decimales, permitir únicamente un punto decimal. Si el usuario escribe más de un punto, mostrar inmediatamente un mensaje de error debajo del campo.
+
+PROMPT 4
+Establecer un máximo de 5 dígitos para los campos de ingresos, egresos, monto y tasa de interés. Cuando el usuario supere la cantidad máxima de dígitos, mostrar inmediatamente un mensaje de error debajo del campo.
+
+PROMPT 5
+El campo de plazo en años debe aceptar únicamente números enteros y tener un máximo de 2 dígitos. Si el usuario escribe letras, espacios, puntos u otros caracteres, mostrar inmediatamente un mensaje de error debajo del campo.
+
+PROMPT 6
+Todos los campos del formulario deben ser obligatorios. Si un campo queda vacío o contiene únicamente espacios, mostrar inmediatamente un mensaje indicando que el campo es obligatorio.
+
+PROMPT 7
+Los mensajes de error deben aparecer debajo del campo correspondiente, utilizar texto de color rojo y estilo de letra cursiva. Cuando el usuario corrija el dato y este cumpla las reglas establecidas, el mensaje de error debe desaparecer inmediatamente.

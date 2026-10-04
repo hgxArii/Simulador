@@ -56,6 +56,15 @@ input:focus {
     border-color: #2563eb;
 }
 
+.error {
+    display: block;
+    min-height: 18px;
+    margin-top: 5px;
+    color: #dc2626;
+    font-size: 13px;
+    font-style: italic;
+}
+
 p {
     display: flex;
     justify-content: space-between;
@@ -109,6 +118,14 @@ button:hover {
         padding: 20px 16px;
     }
 
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
     .buttons {
         flex-direction: column;
     }
@@ -116,4 +133,12 @@ button:hover {
     p {
         font-size: 14px;
     }
+}
+.error {
+    display: block;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 5px;
+    min-height: 18px;
 }
